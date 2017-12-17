@@ -1,10 +1,10 @@
-=== Surbma - Booking.com Shortcode ===
+=== Booking.com Shortcode by Surbma ===
 Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: Booking.com, shortcode
-Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.0.2
+Requires at least: 4.0
+Tested up to: 4.9
+Stable tag: 1.0.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,10 @@ No, you can't.
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.0.3 =
+
+- Tested up to WordPress 4.9 version.
 
 = 1.0.2 =
 
