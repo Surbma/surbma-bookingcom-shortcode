@@ -1,4 +1,4 @@
-=== Booking.com Shortcode by Surbma ===
+=== Booking.com Shortcode ===
 Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: Booking.com, shortcode

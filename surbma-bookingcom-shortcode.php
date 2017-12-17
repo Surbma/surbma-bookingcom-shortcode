@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: Booking.com Shortcode by Surbma
+Plugin Name: Booking.com Shortcode
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: A simple shortcode to include Booking.com search box into WordPress.
 
