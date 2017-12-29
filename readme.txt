@@ -1,10 +1,10 @@
-=== Booking.com Shortcode ===
+=== Surbma - Booking.com Shortcode ===
 Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: Booking.com, shortcode
 Requires at least: 4.0
 Tested up to: 4.9
-Stable tag: 1.0.3
+Stable tag: 1.1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ A simple shortcode to include Booking.com search box into WordPress.
 
 A simple shortcode to include Booking.com search box into WordPress. This is a very useful plugin if your user don't have a permission to embed javascript in the content.
 
-The shortcode: `[booking_com param="ALL_THE_PARAMETERS"]`
+The shortcode: `[surbma-bookingcom param="ALL_THE_PARAMETERS"]`
 
 Where param is the parameter, you can find in the Booking.com embed code. You need to find the src field, where you have to copy all the parameters after the `http://www.booking.com/general.html?` url.
 
@@ -42,6 +42,10 @@ No, you can't.
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.1.0 =
+
+- Changed shortcode name to surbma-bookingcom from booking_com. The old shortcode is still working, but it's deprecated and it will be removed from the next version.
 
 = 1.0.3 =
 
