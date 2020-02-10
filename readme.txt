@@ -1,10 +1,11 @@
-=== Surbma - Booking.com Shortcode ===
-Contributors: Surbma
-Donate link: http://surbma.com/
+=== Surbma | Booking.com Shortcode ===
+Contributors: Surbma, CherryPickStudios
+Donate link: https://surbma.com/donate/
 Tags: Booking.com, shortcode
-Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.1.0
+Requires at least: 5.1
+Tested up to: 5.3
+Stable tag: 2.0
+Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,22 +17,22 @@ A simple shortcode to include Booking.com search box into WordPress. This is a v
 
 The shortcode: `[surbma-bookingcom param="ALL_THE_PARAMETERS"]`
 
-Where param is the parameter, you can find in the Booking.com embed code. You need to find the src field, where you have to copy all the parameters after the `http://www.booking.com/general.html?` url.
+Where param is the parameter, you can find in the Booking.com embed code. You need to find the src field, where you have to copy all the parameters after the `https://www.booking.com/general.html?` url.
 
 You can find the parameters at the end of your Booking.com script's url:
-`<script type="text/javascript" src="http://www.booking.com/general.html?ALL_THE_PARAMETERS"></script>`
+`<script type="text/javascript" src="https://www.booking.com/general.html?ALL_THE_PARAMETERS"></script>`
 
 == Installation ==
 
 1. Upload `surbma-bookingcom-shortcode` folder to the `/wp-content/plugins/` directory
-2. Activate the Surbma - Booking.com Shortcode plugin through the 'Plugins' menu in WordPress
+2. Activate the Surbma | Booking.com Shortcode plugin through the 'Plugins' menu in WordPress
 3. That's it. Now you can use the shortcode. :)
 
 == Frequently Asked Questions ==
 
 = What is Booking.com? =
 
-Booking.com offers online accommodation booking. For more information, please visit the official Booking.com website: <a href="http://www.booking.com/" target="_blank">www.booking.com</a>
+Booking.com offers online accommodation booking. For more information, please visit the official Booking.com website: <a href="https://www.booking.com/" target="_blank">www.booking.com</a>
 
 = Can I customize the look of the form? =
 
@@ -42,6 +43,13 @@ No, you can't.
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.0 =
+
+Release date: 2020-02-10
+
+- TWEAK - Tested with WordPress 5.3 version.
+- TWEAK - Updated to use a new way to deploy it to wp.org repo.
 
 = 1.1.0 =
 
